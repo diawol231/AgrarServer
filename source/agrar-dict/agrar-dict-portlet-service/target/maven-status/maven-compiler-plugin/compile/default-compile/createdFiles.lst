@@ -1,0 +1,15 @@
+agrar\dict\sbuilder\model\DictAreaModel.class
+agrar\dict\sbuilder\service\DictAreaLocalServiceClp.class
+agrar\dict\sbuilder\model\DictAreaClp.class
+agrar\dict\sbuilder\service\persistence\DictAreaPersistence.class
+agrar\dict\sbuilder\model\DictArea.class
+agrar\dict\sbuilder\service\persistence\DictAreaActionableDynamicQuery.class
+agrar\dict\sbuilder\NoSuchDictAreaException.class
+agrar\dict\sbuilder\service\DictAreaLocalServiceWrapper.class
+agrar\dict\sbuilder\service\messaging\ClpMessageListener.class
+agrar\dict\sbuilder\model\DictAreaSoap.class
+agrar\dict\sbuilder\service\DictAreaLocalServiceUtil.class
+agrar\dict\sbuilder\model\DictAreaWrapper.class
+agrar\dict\sbuilder\service\DictAreaLocalService.class
+agrar\dict\sbuilder\service\persistence\DictAreaUtil.class
+agrar\dict\sbuilder\service\ClpSerializer.class

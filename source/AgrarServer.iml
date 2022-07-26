@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/source/agrar-dict/agrar-dict-portlet/target/agrar-dict-portlet-1.0.0/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/source/agrar-dict/agrar-dict-portlet/target/agrar-dict-portlet-1.0.0" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/source/main/java" />
+          <root url="file://$MODULE_DIR$/source/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web3">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/source/agrar-farmer/agrar-farmer-portlet/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/source/agrar-farmer/agrar-farmer-portlet/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/source/main/java" />
+          <root url="file://$MODULE_DIR$/source/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/source/agrar-dict/agrar-dict-portlet/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/source/agrar-dict/agrar-dict-portlet/src/main/webapp" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/source/main/java" />
+          <root url="file://$MODULE_DIR$/source/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web4">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/source/agrar-farmer/agrar-farmer-portlet/target/agrar-farmer-portlet-1.0.0/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/source/agrar-farmer/agrar-farmer-portlet/target/agrar-farmer-portlet-1.0.0" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="LiferayModuleComponent" liferayVersion="6.2.5" />
+</module>

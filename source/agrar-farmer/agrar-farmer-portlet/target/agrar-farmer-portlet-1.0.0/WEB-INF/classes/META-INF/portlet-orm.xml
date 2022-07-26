@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://java.sun.com/xml/ns/persistence/orm_1_0.xsd">
+	<persistence-unit-metadata>
+		<xml-mapping-metadata-complete/>
+		<persistence-unit-defaults>
+			<access>PROPERTY</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<mapped-superclass class="agrar.farmer.sbuilder.model.impl.FarmerModelImpl">
+		<attributes>
+			<id name="id">
+				<column name="ID_" />
+			</id>
+			<basic name="archive" />
+			<basic name="form" />
+			<basic name="name" />
+			<basic name="inn" />
+			<basic name="kpp" />
+			<basic name="ogrn" />
+			<basic name="registrationArea" />
+			<basic name="registrationDate">
+				<temporal>TIMESTAMP</temporal>
+			</basic>
+			<transient name="modelAttributes" />
+			<transient name="primaryKey" />
+			<transient name="primaryKeyObj" />
+		</attributes>
+	</mapped-superclass>
+	<mapped-superclass class="agrar.farmer.sbuilder.model.impl.FarmerAreaModelImpl">
+		<attributes>
+			<id name="id">
+				<column name="ID_" />
+			</id>
+			<basic name="farmerId" />
+			<basic name="areaId" />
+			<basic name="description" />
+			<transient name="modelAttributes" />
+			<transient name="primaryKey" />
+			<transient name="primaryKeyObj" />
+		</attributes>
+	</mapped-superclass>
+	<entity class="agrar.farmer.sbuilder.model.impl.FarmerImpl" name="Farmer">
+		<table name="agrar_farmer_Farmer" />
+		<attributes />
+	</entity>
+	<entity class="agrar.farmer.sbuilder.model.impl.FarmerAreaImpl" name="FarmerArea">
+		<table name="agrar_farmer_FarmerArea" />
+		<attributes />
+	</entity>
+</entity-mappings>

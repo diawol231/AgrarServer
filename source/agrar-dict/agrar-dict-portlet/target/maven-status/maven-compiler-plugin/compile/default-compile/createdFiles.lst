@@ -1,0 +1,14 @@
+agrar\dict\constants\WebKeys.class
+agrar\dict\sbuilder\service\base\DictAreaLocalServiceBaseImpl.class
+agrar\dict\sbuilder\service\base\DictAreaLocalServiceClpInvoker.class
+agrar\dict\sbuilder\model\impl\DictAreaCacheModel.class
+agrar\dict\search\DictAreaSearcher.class
+agrar\dict\sbuilder\service\persistence\DictAreaPersistenceImpl.class
+agrar\dict\portlet\DictionariesPortlet.class
+agrar\dict\sbuilder\model\impl\DictAreaModelImpl.class
+agrar\dict\search\BaseSearcher.class
+agrar\dict\sbuilder\service\persistence\DictAreaPersistenceImpl$2.class
+agrar\dict\sbuilder\service\impl\DictAreaLocalServiceImpl.class
+agrar\dict\sbuilder\model\impl\DictAreaBaseImpl.class
+agrar\dict\sbuilder\model\impl\DictAreaImpl.class
+agrar\dict\sbuilder\service\persistence\DictAreaPersistenceImpl$1.class

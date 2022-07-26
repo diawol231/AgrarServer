@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="agrar.dict.sbuilder.model.DictArea" />
+	<class name="agrar.dict.sbuilder.model.impl.DictAreaImpl" table="agrar_dict_DictArea">
+		<cache usage="read-write" />
+		<id name="id" column="id_" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="archive" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="code" type="com.liferay.portal.dao.orm.hibernate.LongType" column="code_" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id="agrar.farmer.sbuilder.service.FarmerLocalService" class="agrar.farmer.sbuilder.service.impl.FarmerLocalServiceImpl" />
+	<bean id="agrar.farmer.sbuilder.service.persistence.FarmerPersistence" class="agrar.farmer.sbuilder.service.persistence.FarmerPersistenceImpl" parent="basePersistence" />
+	<bean id="agrar.farmer.sbuilder.service.FarmerAreaLocalService" class="agrar.farmer.sbuilder.service.impl.FarmerAreaLocalServiceImpl" />
+	<bean id="agrar.farmer.sbuilder.service.persistence.FarmerAreaPersistence" class="agrar.farmer.sbuilder.service.persistence.FarmerAreaPersistenceImpl" parent="basePersistence" />
+</beans>

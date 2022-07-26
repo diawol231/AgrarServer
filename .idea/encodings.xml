@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/agrar-dict-portlet-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/agrar-dict-portlet-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/agrar-dict-portlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/agrar-dict-portlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-dict/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/agrar-farmer-portlet-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/agrar-farmer-portlet-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/agrar-farmer-portlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/agrar-farmer-portlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-farmer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-lib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/agrar-lib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

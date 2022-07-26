@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<hint-collection name="TEXT">
+		<hint name="max-length">65535</hint>
+	</hint-collection>
+	<hint-collection name="DESC">
+		<hint name="max-length">1000</hint>
+	</hint-collection>
+	<model name="agrar.farmer.sbuilder.model.Farmer">
+		<field name="id" type="long" />
+		<field name="archive" type="boolean" />
+		<field name="form" type="int" />
+		<field name="name" type="String" />
+		<field name="inn" type="String" />
+		<field name="kpp" type="String" />
+		<field name="ogrn" type="String" />
+		<field name="registrationArea" type="long" />
+		<field name="registrationDate" type="Date" />
+	</model>
+	<model name="agrar.farmer.sbuilder.model.FarmerArea">
+		<field name="id" type="long" />
+		<field name="farmerId" type="long" />
+		<field name="areaId" type="long" />
+		<field name="description" type="String" />
+	</model>
+</model-hints>

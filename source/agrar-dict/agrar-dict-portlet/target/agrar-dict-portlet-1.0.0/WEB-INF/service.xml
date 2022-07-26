@@ -1,0 +1,18 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="agrar.dict.sbuilder">
+
+	<namespace>agrar_dict</namespace>
+
+	<!-- Реестр районов -->
+	<entity name="DictArea" local-service="true" remote-service="false">
+		<column name="id" type="long" primary="true"/>
+		<column name="archive" type="boolean"/>
+
+		<!-- Район -->
+		<column name="code" type="long"/>						<!-- Код района -->
+		<column name="name" type="String"/>						<!-- Название -->
+
+	</entity>
+
+</service-builder>

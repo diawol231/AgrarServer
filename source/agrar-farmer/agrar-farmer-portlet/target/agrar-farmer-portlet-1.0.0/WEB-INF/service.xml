@@ -1,0 +1,39 @@
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="agrar.farmer.sbuilder">
+
+	<namespace>agrar_farmer</namespace>
+
+
+		<!-- Реестр фермеров -->
+		<entity name="Farmer" local-service="true" remote-service="false">
+			<column name="id" type="long" primary="true"/>
+			<column name="archive" type="boolean"/>
+
+			<!-- Общая информация -->
+			<column name="form" type="int"/>						<!-- ОПФ организации (OrgForm) -->
+			<column name="name" type="String"/> 					<!-- Название организации -->
+
+			<column name="inn" type="String"/> 						<!-- ИНН -->
+			<column name="kpp" type="String"/> 						<!-- КПП -->
+			<column name="ogrn" type="String"/> 					<!-- ОГРН -->
+
+			<column name="registrationArea" type="long"/> 			<!-- Район регистрации (DictArea) -->
+			<column name="registrationDate" type="Date"/> 			<!-- Дата регистрации -->
+
+	
+		</entity>
+
+
+		<!-- Районы фермера -->
+		<entity name="FarmerArea" local-service="true" remote-service="false">
+			<column name="id" type="long" primary="true"/>
+			<column name="farmerId" type="long"/>
+
+			<!-- Район -->
+			<column name="areaId" type="long"/>						<!-- ID района -->
+			<column name="description" type="String"/>				<!-- Описание -->
+		</entity>
+
+
+</service-builder>

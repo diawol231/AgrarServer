@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<hint-collection name="100">
+		<hint name="max-length">100</hint>
+	</hint-collection>
+	<hint-collection name="500">
+		<hint name="max-length">500</hint>
+	</hint-collection>
+	<model name="agrar.dict.sbuilder.model.DictArea">
+		<field name="id" type="long" />
+		<field name="archive" type="boolean" />
+		<field name="code" type="long" />
+		<field name="name" type="String" />
+	</model>
+</model-hints>

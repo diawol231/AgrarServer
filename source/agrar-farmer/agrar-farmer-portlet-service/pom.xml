@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<groupId>agrar</groupId>
+		<artifactId>agrar-farmer</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+	
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>agrar-farmer-portlet-service</artifactId>
+	<packaging>jar</packaging>
+	<name>agrar-farmer Portlet Service</name>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.liferay.maven.plugins</groupId>
+				<artifactId>liferay-maven-plugin</artifactId>
+				<version>${liferay.maven.plugin.version}</version>
+				<configuration>
+					<webappBaseDir>${basedir}/../agrar-farmer-portlet</webappBaseDir>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<dependencies>
+		<!-- Agrar -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>agrar-dict-portlet-service</artifactId>
+            <version>${project.parent.version}</version>
+		</dependency>
+		<!-- Liferay -->
+		<dependency>
+			<groupId>com.liferay.portal</groupId>
+			<artifactId>portal-service</artifactId>
+			<version>${liferay.version}</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	
+</project>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping default-lazy="false" auto-import="false">
+	<import class="agrar.farmer.sbuilder.model.Farmer" />
+	<import class="agrar.farmer.sbuilder.model.FarmerArea" />
+	<class name="agrar.farmer.sbuilder.model.impl.FarmerImpl" table="agrar_farmer_Farmer">
+		<cache usage="read-write" />
+		<id name="id" column="id_" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="archive" type="com.liferay.portal.dao.orm.hibernate.BooleanType" />
+		<property name="form" type="com.liferay.portal.dao.orm.hibernate.IntegerType" />
+		<property name="name" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="inn" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="kpp" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="ogrn" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+		<property name="registrationArea" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="registrationDate" type="org.hibernate.type.TimestampType" />
+	</class>
+	<class name="agrar.farmer.sbuilder.model.impl.FarmerAreaImpl" table="agrar_farmer_FarmerArea">
+		<cache usage="read-write" />
+		<id name="id" column="id_" type="long">
+			<generator class="assigned" />
+		</id>
+		<property name="farmerId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="areaId" type="com.liferay.portal.dao.orm.hibernate.LongType" />
+		<property name="description" type="com.liferay.portal.dao.orm.hibernate.StringType" />
+	</class>
+</hibernate-mapping>

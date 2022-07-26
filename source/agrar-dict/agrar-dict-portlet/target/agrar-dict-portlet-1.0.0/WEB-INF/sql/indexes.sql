@@ -1,0 +1,1 @@
+create index IX_7DB44724 on agrar_dict_DictArea (id_);
